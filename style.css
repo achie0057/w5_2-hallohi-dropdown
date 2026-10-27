@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Garamond, Georgia, serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ 
+.navbar {
+  background-color: #7272e0;
+  height: 70px;
+  padding-left: 98px;
+  position: relative;
+ 
+}
+
+.menu {
+  display: flex;
+  gap: 90px;
+  height: 70px;
+  align-items: center;
+  font-size: 22px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 45px;
+  left: -22px;
+  width: 210px;
+  padding: 12px 24px 14px 24px;
+  background-color: #7272e0;
+  border-radius: 0 0 40px 0;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.titel {
+  color: #000000;
+  margin-bottom: 6px;
+}
+
+
+.dropdown-menu a:hover {
+  color: #000000;
+}
+
+
+.hero {
+  position: relative;
+  height: 470px;
+  overflow: hidden;
+}
+
+.cirkel {
+  position: absolute;
+  left: 600px;
+  top: -300px;
+  width: 700px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #8a4fe8;
+}
+
+.tekst {
+  position: absolute;
+  left: 98px;
+  top: 70px;
+  width: 500px;
+}
+
+.streepjes {
+  height: 8px;
+}
+
+.streepjes span {
+  display: inline-block;
+  width: 22px;
+  height: 8px;
+  margin-right: 3px;
+}
+
+.streepje1 { background-color: #8000e0; }
+.streepje2 { background-color: #5a5aa0; }
+.streepje3 { background-color: #b4b4f0; }
+
+h1 {
+  font-size: 80px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.bubble {
+  position: absolute;
+  left: 212px;
+  top: 0;
+  width: 66px;
+  height: 66px;
+  border: 3px solid #2fe0b0;
+  border-radius: 50%;
+  color: #2fe0b0;
+  font-size: 22px;
+  text-align: center;
+  line-height: 60px;
+}
+
+h2 {
+  font-size: 19px;
+  font-weight: normal;
+  margin-top: 28px;
+  margin-left: 4px;
+}
+
+.tekst p {
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+
+.knop {
+  display: inline-block;
+  width: 170px;
+  height: 58px;
+  line-height: 56px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.knop-wit {
+  border: 1px solid #ffffff;
+  margin-right: 17px;
+}
+
+.knop-paars {
+  background-color: #8000ff;
+  border: 1px solid #8000ff;
+}
+
+
+.telefoon {
+  position: absolute;
+  left: 785px;
+  top: 90px;
+  width: 235px;
+}
+
+.sim {
+  position: absolute;
+  left: 853px;
+  top: 340px;
+  width: 36px;
+}
+
+
+.superdeal {
+  position: absolute;
+  left: 706px;
+  top: 208px;
+  width: 116px;
+  height: 116px;
+  border-radius: 50%;
+  background-color: #8000ff;
+  text-align: center;
+  padding-top: 38px;
+  font-size: 22px;
+  line-height: 24px;
+  transform: rotate(-15deg);
+}
